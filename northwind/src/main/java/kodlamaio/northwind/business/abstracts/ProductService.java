@@ -2,7 +2,6 @@ package kodlamaio.northwind.business.abstracts;
 
 import java.util.List;
 
-import org.springframework.data.jpa.repository.Query;
 
 import kodlamaio.northwind.core.utilities.results.DataResult;
 import kodlamaio.northwind.core.utilities.results.Result;
