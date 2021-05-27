@@ -38,5 +38,10 @@ public class ProductsController {
 				
 		
 	}
+	
+	@GetMapping("/getByProductName")
+	public DataResult<Product> getByProductName(String productName){
+		return this.productService.getByProductName(productName);
+	}
 	//
 }
