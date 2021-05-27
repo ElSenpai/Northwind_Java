@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
@@ -18,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Category {
 
-	
+	@Id
 	@Column(name="category_id")
 	private int categoryId;
 	
