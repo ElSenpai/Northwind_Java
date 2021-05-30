@@ -89,8 +89,8 @@ public class ProductManager implements ProductService {
 
 	@Override
 	public DataResult<List<Product>> getAllSorted() {
-		Sort sort = Sort.by(Sort.Direction.DESC);
-		return new SuccessDataResult<List<Product>>(this.productDao.findAll(sort));
+		Sort sort = Sort.by(Sort.Direction.DESC,"productName");
+		return new SuccessDataResult<List<Product>>(this.productDao.findAll(sort),"Success");
 	}
 	
 
