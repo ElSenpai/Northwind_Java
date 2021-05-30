@@ -38,8 +38,11 @@ public class UsersController {
 		return ResponseEntity.ok(this.userService.add(user));
 	}
 	@ExceptionHandler(MethodArgumentNotValidException.class)
-	public ErrorDataResult<Object> handleValidationException(){
+	public ErrorDataResult<Object> handleValidationException(MethodArgumentNotValidException exceptions){
 		Map<String, String> validationErrors=new HashMap<String,String>();
+		for() {
+			
+		}
 		
 	}
 	
