@@ -97,7 +97,7 @@ public class ProductManager implements ProductService {
 	@Override
 	public DataResult<List<ProductWithCategoryDto>> getProductWithCategoryDetails() {
 		// TODO Auto-generated method stub
-		return new SuccessDataResult<List<ProductWithCategoryDto>>(this.productDao.getProductWithCategoryDetails());
+		return new SuccessDataResult<List<ProductWithCategoryDto>>(this.productDao.getProductWithCategoryDetails(),"Product Details Listelendi !");
 	}
 	
 
