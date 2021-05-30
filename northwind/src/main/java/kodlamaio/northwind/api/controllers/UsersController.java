@@ -57,9 +57,6 @@ public class UsersController {
 	}
 	
 	
-//	@GetMapping("/getbyemail")
-//	public ResponseEntity<?> findByEmail(String email) {
-//		return this.userService.findByEmail(email);
-//	}
+
 	
 }
